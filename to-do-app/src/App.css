@@ -1,0 +1,40 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+.todoMain {
+  min-height: 30vh;
+  padding: 10px;
+  text-align: center;
+}
+.todoMain .buttons {
+  margin-bottom: 50px;
+}
+.todoform {
+  width: 300px;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+}
+.todoMain h1 {
+  color: white;
+}
+.todoform > * {
+  width: 300px;
+  margin: 5px;
+  padding: 5px;
+}
+.todoform button {
+  background-color: rgb(150, 243, 150);
+}
+.todolist {
+  max-width: 500px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.todolist button {
+  float: right;
+}
